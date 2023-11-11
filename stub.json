@@ -1,0 +1,1 @@
+{"config":{"system_prompt":"","model":"","temperature":0,"top_p":1,"framework":"nextjs-page-tailwind"},"prompts":[{"prompt":"Create a web-based Super Mario game component where users can control the character using the up, down, left, and right arrow keys. Ensure the game has a well-styled and visually appealing design.","md5":"f379cc62dc985308f897b35f9166cb39"}]}
