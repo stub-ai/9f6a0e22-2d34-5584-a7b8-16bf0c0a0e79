@@ -31,25 +31,15 @@ const Game = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        position: 'relative',
-        height: '80vh',
-        width: '80vw',
-        backgroundColor: '#000',
-        margin: 'auto',
-        borderRadius: '10px',
-        overflow: 'hidden'
-      }}
-    >
+    <div className="relative h-80 w-80 bg-black m-auto rounded-lg overflow-hidden">
       <div
+        className="absolute"
         style={{
-          position: 'absolute',
           top: `${position.top}px`,
           left: `${position.left}px`,
           height: '50px',
           width: '50px',
-          backgroundImage: 'url(/path/to/mario.png)', // Add the path to your Mario image
+          backgroundImage: 'url(/mario.png)', // Ensure the Mario image is present in the public directory
           backgroundSize: 'cover',
         }}
       />
