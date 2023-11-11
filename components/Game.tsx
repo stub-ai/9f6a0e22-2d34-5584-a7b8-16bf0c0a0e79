@@ -34,9 +34,12 @@ const Game = () => {
     <div
       style={{
         position: 'relative',
-        height: '100vh',
-        width: '100vw',
+        height: '80vh',
+        width: '80vw',
         backgroundColor: '#000',
+        margin: 'auto',
+        borderRadius: '10px',
+        overflow: 'hidden'
       }}
     >
       <div
